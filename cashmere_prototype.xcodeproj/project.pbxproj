@@ -3,27 +3,108 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2434326225CF9247006816CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434326125CF9247006816CC /* AppDelegate.swift */; };
 		2434326425CF9247006816CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434326325CF9247006816CC /* SceneDelegate.swift */; };
-		2434326625CF9247006816CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434326525CF9247006816CC /* ContentView.swift */; };
 		2434326825CF924A006816CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2434326725CF924A006816CC /* Assets.xcassets */; };
 		2434326B25CF924A006816CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2434326A25CF924A006816CC /* Preview Assets.xcassets */; };
 		2434326E25CF924A006816CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2434326C25CF924A006816CC /* LaunchScreen.storyboard */; };
+		2434327725CF925A006816CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2434327625CF925A006816CC /* GoogleService-Info.plist */; };
+		243432B625CF9312006816CC /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434328F25CF9311006816CC /* ProfileSettingsView.swift */; };
+		243432B725CF9312006816CC /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329025CF9311006816CC /* MainMenuView.swift */; };
+		243432B825CF9312006816CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329125CF9311006816CC /* ContentView.swift */; };
+		243432B925CF9312006816CC /* RuleExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329225CF9311006816CC /* RuleExplanationView.swift */; };
+		243432BA25CF9312006816CC /* EscapeTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329425CF9311006816CC /* EscapeTimeView.swift */; };
+		243432BB25CF9312006816CC /* GameWatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329725CF9311006816CC /* GameWatingView.swift */; };
+		243432BC25CF9312006816CC /* GameruleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329825CF9311006816CC /* GameruleView.swift */; };
+		243432BD25CF9312006816CC /* JoinRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329925CF9311006816CC /* JoinRoomView.swift */; };
+		243432BE25CF9312006816CC /* PlayerInviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329B25CF9311006816CC /* PlayerInviteView.swift */; };
+		243432BF25CF9312006816CC /* InvitedPlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329C25CF9311006816CC /* InvitedPlayerListView.swift */; };
+		243432C025CF9312006816CC /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329D25CF9311006816CC /* QRCodeView.swift */; };
+		243432C125CF9312006816CC /* CreateRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434329F25CF9311006816CC /* CreateRoomView.swift */; };
+		243432C225CF9312006816CC /* GameruleSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432A025CF9311006816CC /* GameruleSettingsView.swift */; };
+		243432C325CF9312006816CC /* CustomButtomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432A225CF9311006816CC /* CustomButtomStyle.swift */; };
+		243432C425CF9312006816CC /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432A325CF9311006816CC /* UIColorHex.swift */; };
+		243432C525CF9312006816CC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432A525CF9311006816CC /* GameView.swift */; };
+		243432C625CF9312006816CC /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432A625CF9311006816CC /* ResultView.swift */; };
+		243432C725CF9312006816CC /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432A825CF9311006816CC /* TimerView.swift */; };
+		243432C825CF9312006816CC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432A925CF9311006816CC /* MapView.swift */; };
+		243432C925CF9312006816CC /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432AB25CF9311006816CC /* ItemView.swift */; };
+		243432CA25CF9312006816CC /* ItemListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432AC25CF9311006816CC /* ItemListRow.swift */; };
+		243432CB25CF9312006816CC /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432AD25CF9311006816CC /* GameOverView.swift */; };
+		243432CC25CF9312006816CC /* PlayerListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432AF25CF9311006816CC /* PlayerListRow.swift */; };
+		243432CD25CF9312006816CC /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432B025CF9311006816CC /* PlayerView.swift */; };
+		243432CE25CF9312006816CC /* CircleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432B125CF9311006816CC /* CircleMapView.swift */; };
+		243432CF25CF9312006816CC /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432B325CF9311006816CC /* GoogleSignInButton.swift */; };
+		243432D025CF9312006816CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432B425CF9311006816CC /* LoginView.swift */; };
+		243432D125CF9312006816CC /* GoogleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432B525CF9311006816CC /* GoogleSignInViewController.swift */; };
+		243432E125CF932A006816CC /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432D525CF9329006816CC /* SessionStore.swift */; };
+		243432E225CF932A006816CC /* QRCodeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432D625CF9329006816CC /* QRCodeMaker.swift */; };
+		243432E325CF932A006816CC /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432D725CF9329006816CC /* MapService.swift */; };
+		243432E425CF932A006816CC /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432D825CF9329006816CC /* LocationService.swift */; };
+		243432E525CF932A006816CC /* ScreenTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432DA25CF9329006816CC /* ScreenTransitionView.swift */; };
+		243432E625CF932A006816CC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432DB25CF9329006816CC /* Item.swift */; };
+		243432E725CF932A006816CC /* GameEventFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432DC25CF9329006816CC /* GameEventFlag.swift */; };
+		243432E825CF932A006816CC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432DD25CF9329006816CC /* Room.swift */; };
+		243432E925CF932A006816CC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432DE25CF9329006816CC /* Player.swift */; };
+		243432EA25CF932A006816CC /* RealtimeDatabeseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243432E025CF932A006816CC /* RealtimeDatabeseDAO.swift */; };
+		243432EE25CFAA5F006816CC /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 243432ED25CFAA5F006816CC /* CodeScanner */; };
+		559FB61047F46964F4091E1C /* Pods_cashmere_prototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6F5CF7834DAF8DCE00477B /* Pods_cashmere_prototype.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1581FB9123D5058422059D0F /* Pods-cashmere_prototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cashmere_prototype.release.xcconfig"; path = "Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype.release.xcconfig"; sourceTree = "<group>"; };
 		2434325E25CF9247006816CC /* cashmere_prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cashmere_prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2434326125CF9247006816CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2434326325CF9247006816CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2434326525CF9247006816CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2434326725CF924A006816CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2434326A25CF924A006816CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2434326D25CF924A006816CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2434326F25CF924A006816CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2434327625CF925A006816CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2434328F25CF9311006816CC /* ProfileSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+		2434329025CF9311006816CC /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		2434329125CF9311006816CC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2434329225CF9311006816CC /* RuleExplanationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleExplanationView.swift; sourceTree = "<group>"; };
+		2434329425CF9311006816CC /* EscapeTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscapeTimeView.swift; sourceTree = "<group>"; };
+		2434329725CF9311006816CC /* GameWatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameWatingView.swift; sourceTree = "<group>"; };
+		2434329825CF9311006816CC /* GameruleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameruleView.swift; sourceTree = "<group>"; };
+		2434329925CF9311006816CC /* JoinRoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinRoomView.swift; sourceTree = "<group>"; };
+		2434329B25CF9311006816CC /* PlayerInviteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInviteView.swift; sourceTree = "<group>"; };
+		2434329C25CF9311006816CC /* InvitedPlayerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitedPlayerListView.swift; sourceTree = "<group>"; };
+		2434329D25CF9311006816CC /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		2434329F25CF9311006816CC /* CreateRoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRoomView.swift; sourceTree = "<group>"; };
+		243432A025CF9311006816CC /* GameruleSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameruleSettingsView.swift; sourceTree = "<group>"; };
+		243432A225CF9311006816CC /* CustomButtomStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtomStyle.swift; sourceTree = "<group>"; };
+		243432A325CF9311006816CC /* UIColorHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		243432A525CF9311006816CC /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		243432A625CF9311006816CC /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		243432A825CF9311006816CC /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		243432A925CF9311006816CC /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		243432AB25CF9311006816CC /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		243432AC25CF9311006816CC /* ItemListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListRow.swift; sourceTree = "<group>"; };
+		243432AD25CF9311006816CC /* GameOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		243432AF25CF9311006816CC /* PlayerListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerListRow.swift; sourceTree = "<group>"; };
+		243432B025CF9311006816CC /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		243432B125CF9311006816CC /* CircleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMapView.swift; sourceTree = "<group>"; };
+		243432B325CF9311006816CC /* GoogleSignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
+		243432B425CF9311006816CC /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		243432B525CF9311006816CC /* GoogleSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInViewController.swift; sourceTree = "<group>"; };
+		243432D525CF9329006816CC /* SessionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		243432D625CF9329006816CC /* QRCodeMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeMaker.swift; sourceTree = "<group>"; };
+		243432D725CF9329006816CC /* MapService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
+		243432D825CF9329006816CC /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		243432DA25CF9329006816CC /* ScreenTransitionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenTransitionView.swift; sourceTree = "<group>"; };
+		243432DB25CF9329006816CC /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		243432DC25CF9329006816CC /* GameEventFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEventFlag.swift; sourceTree = "<group>"; };
+		243432DD25CF9329006816CC /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		243432DE25CF9329006816CC /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		243432E025CF932A006816CC /* RealtimeDatabeseDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeDatabeseDAO.swift; sourceTree = "<group>"; };
+		90FB48B06F189076C8A982EA /* Pods-cashmere_prototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cashmere_prototype.debug.xcconfig"; path = "Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype.debug.xcconfig"; sourceTree = "<group>"; };
+		FE6F5CF7834DAF8DCE00477B /* Pods_cashmere_prototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cashmere_prototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +112,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243432EE25CFAA5F006816CC /* CodeScanner in Frameworks */,
+				559FB61047F46964F4091E1C /* Pods_cashmere_prototype.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127D9CB49FC1400148D5FDE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F5CF7834DAF8DCE00477B /* Pods_cashmere_prototype.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2434325525CF9247006816CC = {
 			isa = PBXGroup;
 			children = (
 				2434326025CF9247006816CC /* cashmere_prototype */,
 				2434325F25CF9247006816CC /* Products */,
+				5838F2CFCC7E6B9ED550C64F /* Pods */,
+				127D9CB49FC1400148D5FDE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +149,15 @@
 		2434326025CF9247006816CC /* cashmere_prototype */ = {
 			isa = PBXGroup;
 			children = (
+				243432D925CF9329006816CC /* Model */,
+				243432DF25CF932A006816CC /* Repository */,
+				243432D425CF9329006816CC /* Service */,
+				2434328D25CF9311006816CC /* Views */,
 				2434326125CF9247006816CC /* AppDelegate.swift */,
 				2434326325CF9247006816CC /* SceneDelegate.swift */,
-				2434326525CF9247006816CC /* ContentView.swift */,
 				2434326725CF924A006816CC /* Assets.xcassets */,
 				2434326C25CF924A006816CC /* LaunchScreen.storyboard */,
+				2434327625CF925A006816CC /* GoogleService-Info.plist */,
 				2434326F25CF924A006816CC /* Info.plist */,
 				2434326925CF924A006816CC /* Preview Content */,
 			);
@@ -75,6 +172,177 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2434328D25CF9311006816CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2434328E25CF9311006816CC /* Top */,
+				2434329325CF9311006816CC /* Escape */,
+				2434329525CF9311006816CC /* Room */,
+				243432A125CF9311006816CC /* Style */,
+				243432A425CF9311006816CC /* Game */,
+				243432B125CF9311006816CC /* CircleMapView.swift */,
+				243432B225CF9311006816CC /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2434328E25CF9311006816CC /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				2434328F25CF9311006816CC /* ProfileSettingsView.swift */,
+				2434329025CF9311006816CC /* MainMenuView.swift */,
+				2434329125CF9311006816CC /* ContentView.swift */,
+				2434329225CF9311006816CC /* RuleExplanationView.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		2434329325CF9311006816CC /* Escape */ = {
+			isa = PBXGroup;
+			children = (
+				2434329425CF9311006816CC /* EscapeTimeView.swift */,
+			);
+			path = Escape;
+			sourceTree = "<group>";
+		};
+		2434329525CF9311006816CC /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				2434329625CF9311006816CC /* Join */,
+				2434329A25CF9311006816CC /* Invite */,
+				2434329E25CF9311006816CC /* Create */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		2434329625CF9311006816CC /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				2434329725CF9311006816CC /* GameWatingView.swift */,
+				2434329825CF9311006816CC /* GameruleView.swift */,
+				2434329925CF9311006816CC /* JoinRoomView.swift */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		2434329A25CF9311006816CC /* Invite */ = {
+			isa = PBXGroup;
+			children = (
+				2434329B25CF9311006816CC /* PlayerInviteView.swift */,
+				2434329C25CF9311006816CC /* InvitedPlayerListView.swift */,
+				2434329D25CF9311006816CC /* QRCodeView.swift */,
+			);
+			path = Invite;
+			sourceTree = "<group>";
+		};
+		2434329E25CF9311006816CC /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				2434329F25CF9311006816CC /* CreateRoomView.swift */,
+				243432A025CF9311006816CC /* GameruleSettingsView.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		243432A125CF9311006816CC /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				243432A225CF9311006816CC /* CustomButtomStyle.swift */,
+				243432A325CF9311006816CC /* UIColorHex.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		243432A425CF9311006816CC /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				243432A525CF9311006816CC /* GameView.swift */,
+				243432A625CF9311006816CC /* ResultView.swift */,
+				243432A725CF9311006816CC /* Map */,
+				243432AA25CF9311006816CC /* Item */,
+				243432AD25CF9311006816CC /* GameOverView.swift */,
+				243432AE25CF9311006816CC /* Player */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		243432A725CF9311006816CC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				243432A825CF9311006816CC /* TimerView.swift */,
+				243432A925CF9311006816CC /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		243432AA25CF9311006816CC /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				243432AB25CF9311006816CC /* ItemView.swift */,
+				243432AC25CF9311006816CC /* ItemListRow.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		243432AE25CF9311006816CC /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				243432AF25CF9311006816CC /* PlayerListRow.swift */,
+				243432B025CF9311006816CC /* PlayerView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		243432B225CF9311006816CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				243432B325CF9311006816CC /* GoogleSignInButton.swift */,
+				243432B425CF9311006816CC /* LoginView.swift */,
+				243432B525CF9311006816CC /* GoogleSignInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		243432D425CF9329006816CC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				243432D525CF9329006816CC /* SessionStore.swift */,
+				243432D625CF9329006816CC /* QRCodeMaker.swift */,
+				243432D725CF9329006816CC /* MapService.swift */,
+				243432D825CF9329006816CC /* LocationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		243432D925CF9329006816CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				243432DA25CF9329006816CC /* ScreenTransitionView.swift */,
+				243432DB25CF9329006816CC /* Item.swift */,
+				243432DC25CF9329006816CC /* GameEventFlag.swift */,
+				243432DD25CF9329006816CC /* Room.swift */,
+				243432DE25CF9329006816CC /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		243432DF25CF932A006816CC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				243432E025CF932A006816CC /* RealtimeDatabeseDAO.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5838F2CFCC7E6B9ED550C64F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90FB48B06F189076C8A982EA /* Pods-cashmere_prototype.debug.xcconfig */,
+				1581FB9123D5058422059D0F /* Pods-cashmere_prototype.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,15 +350,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2434327225CF924A006816CC /* Build configuration list for PBXNativeTarget "cashmere_prototype" */;
 			buildPhases = (
+				E3E8E11A5185250385769E0E /* [CP] Check Pods Manifest.lock */,
 				2434325A25CF9247006816CC /* Sources */,
 				2434325B25CF9247006816CC /* Frameworks */,
 				2434325C25CF9247006816CC /* Resources */,
+				7999C88EBCDD2D2B8865AF2D /* [CP] Embed Pods Frameworks */,
+				9C6356B925E974AA28317028 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = cashmere_prototype;
+			packageProductDependencies = (
+				243432ED25CFAA5F006816CC /* CodeScanner */,
+			);
 			productName = cashmere_prototype;
 			productReference = 2434325E25CF9247006816CC /* cashmere_prototype.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +392,9 @@
 				Base,
 			);
 			mainGroup = 2434325525CF9247006816CC;
+			packageReferences = (
+				243432EC25CFAA5F006816CC /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 2434325F25CF9247006816CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2434326E25CF924A006816CC /* LaunchScreen.storyboard in Resources */,
+				2434327725CF925A006816CC /* GoogleService-Info.plist in Resources */,
 				2434326B25CF924A006816CC /* Preview Assets.xcassets in Resources */,
 				2434326825CF924A006816CC /* Assets.xcassets in Resources */,
 			);
@@ -140,14 +418,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7999C88EBCDD2D2B8865AF2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6356B925E974AA28317028 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cashmere_prototype/Pods-cashmere_prototype-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E8E11A5185250385769E0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cashmere_prototype-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2434325A25CF9247006816CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243432C725CF9312006816CC /* TimerView.swift in Sources */,
+				243432E125CF932A006816CC /* SessionStore.swift in Sources */,
+				243432E825CF932A006816CC /* Room.swift in Sources */,
+				243432E525CF932A006816CC /* ScreenTransitionView.swift in Sources */,
+				243432BC25CF9312006816CC /* GameruleView.swift in Sources */,
+				243432B725CF9312006816CC /* MainMenuView.swift in Sources */,
+				243432C825CF9312006816CC /* MapView.swift in Sources */,
+				243432E325CF932A006816CC /* MapService.swift in Sources */,
 				2434326225CF9247006816CC /* AppDelegate.swift in Sources */,
+				243432C225CF9312006816CC /* GameruleSettingsView.swift in Sources */,
+				243432BF25CF9312006816CC /* InvitedPlayerListView.swift in Sources */,
+				243432CA25CF9312006816CC /* ItemListRow.swift in Sources */,
+				243432EA25CF932A006816CC /* RealtimeDatabeseDAO.swift in Sources */,
+				243432BA25CF9312006816CC /* EscapeTimeView.swift in Sources */,
+				243432C925CF9312006816CC /* ItemView.swift in Sources */,
+				243432BE25CF9312006816CC /* PlayerInviteView.swift in Sources */,
+				243432B825CF9312006816CC /* ContentView.swift in Sources */,
+				243432BD25CF9312006816CC /* JoinRoomView.swift in Sources */,
+				243432C425CF9312006816CC /* UIColorHex.swift in Sources */,
+				243432C325CF9312006816CC /* CustomButtomStyle.swift in Sources */,
+				243432BB25CF9312006816CC /* GameWatingView.swift in Sources */,
+				243432C125CF9312006816CC /* CreateRoomView.swift in Sources */,
+				243432C525CF9312006816CC /* GameView.swift in Sources */,
+				243432D025CF9312006816CC /* LoginView.swift in Sources */,
+				243432CD25CF9312006816CC /* PlayerView.swift in Sources */,
+				243432CF25CF9312006816CC /* GoogleSignInButton.swift in Sources */,
+				243432B625CF9312006816CC /* ProfileSettingsView.swift in Sources */,
+				243432C025CF9312006816CC /* QRCodeView.swift in Sources */,
+				243432D125CF9312006816CC /* GoogleSignInViewController.swift in Sources */,
+				243432CB25CF9312006816CC /* GameOverView.swift in Sources */,
+				243432E725CF932A006816CC /* GameEventFlag.swift in Sources */,
+				243432E625CF932A006816CC /* Item.swift in Sources */,
+				243432E925CF932A006816CC /* Player.swift in Sources */,
+				243432E225CF932A006816CC /* QRCodeMaker.swift in Sources */,
 				2434326425CF9247006816CC /* SceneDelegate.swift in Sources */,
-				2434326625CF9247006816CC /* ContentView.swift in Sources */,
+				243432C625CF9312006816CC /* ResultView.swift in Sources */,
+				243432CC25CF9312006816CC /* PlayerListRow.swift in Sources */,
+				243432CE25CF9312006816CC /* CircleMapView.swift in Sources */,
+				243432E425CF932A006816CC /* LocationService.swift in Sources */,
+				243432B925CF9312006816CC /* RuleExplanationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +657,7 @@
 		};
 		2434327325CF924A006816CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FB48B06F189076C8A982EA /* Pods-cashmere_prototype.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +679,7 @@
 		};
 		2434327425CF924A006816CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1581FB9123D5058422059D0F /* Pods-cashmere_prototype.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,6 +721,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		243432EC25CFAA5F006816CC /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		243432ED25CFAA5F006816CC /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 243432EC25CFAA5F006816CC /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2434325625CF9247006816CC /* Project object */;
 }

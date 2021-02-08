@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>301163545206-ckp8g8if6luu9tp1d64rra9ai447nf5r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.301163545206-ckp8g8if6luu9tp1d64rra9ai447nf5r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhU449VpgcLk_O7Qa8xg509eMWUrv-e08</string>
+	<key>GCM_SENDER_ID</key>
+	<string>301163545206</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.github.shun-shun.cashmere-prototype</string>
+	<key>PROJECT_ID</key>
+	<string>cashmereprototype2020</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cashmereprototype2020.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:301163545206:ios:9ffa029561bb51834b9557</string>
+</dict>
+</plist>
